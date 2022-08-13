@@ -1,20 +1,40 @@
+:root {
+  --primary: #5b41ff;
+  --secondary: rgba(144, 149, 166, 0.65);
+}
+
 /* header starts */
 .header {
-    display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header .search-box {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border: 1px solid grey;
-    padding: 8px;
-    border-radius: 31px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 31px;
 }
 .header .search-box input {
   border: 0;
 }
 
 /* header ends */
+
+/* intro-title starts */
+.intro-title {
+  height: 75px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.0678px;
+  line-height: 37px;
+  letter-spacing: -0.187119px;
+  color: #1b153d;
+}
+/* intro-title ends */
+
+
