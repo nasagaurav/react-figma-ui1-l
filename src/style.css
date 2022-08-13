@@ -37,4 +37,16 @@
 }
 /* intro-title ends */
 
+/* categories design starts */
+.cats {
+  display: flex;
+  gap: 19.9px;
+}
+.cats .item {
+  color: var(--secondary);
+}
+.cats .item.active {
+  color: var(--primary);
+}
 
+/* categories design ends */
