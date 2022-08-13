@@ -1,3 +1,6 @@
+body {
+  background-color: #fcfcff;
+}
 :root {
   --primary: #5b41ff;
   --secondary: rgba(144, 149, 166, 0.65);
@@ -50,3 +53,45 @@
 }
 
 /* categories design ends */
+
+/* products starts */
+.products {
+  display: flex;
+  flex-flow: wrap;
+}
+.products .product {
+  width: 42%;
+  background-color: white;
+  margin: 0.5%;
+  padding: 1%;
+}
+.products .product img {
+}
+.products .product .title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.4746px;
+  line-height: 15px;
+  letter-spacing: -0.187119px;
+  color: #1b153d;
+}
+.products .product .desc {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.35593px;
+  line-height: 11px;
+  letter-spacing: -0.187119px;
+  color: #9095a6;
+}
+.products .product .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.4746px;
+  line-height: 15px;
+  letter-spacing: -0.187119px;
+  color: #5b41ff;
+}
+/* products ends */

@@ -33,7 +33,7 @@ export default function Products() {
   ];
 
   return (
-    <div className="">
+    <div className="products">
       {a.map((x) => (
         <Product key={x.id} {...x} />
       ))}
