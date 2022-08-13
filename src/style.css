@@ -1,0 +1,20 @@
+/* header starts */
+.header {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 31px;
+}
+.header .search-box input {
+  border: 0;
+}
+
+/* header ends */

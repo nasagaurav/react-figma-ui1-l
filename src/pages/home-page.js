@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div>
       <Header />
-      <h1>Find your suitable product now.</h1>
+      <div className="intro-title">Find your suitable product now.</div>
       <Categories />
       <Products />
     </div>
