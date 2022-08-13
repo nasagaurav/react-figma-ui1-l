@@ -201,3 +201,32 @@ body {
   color: rgba(144, 149, 166, 0.65);
 }
 /* choose color ends */
+
+/* details starts */
+.details {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5373px;
+  line-height: 19px;
+  color: rgba(144, 149, 166, 0.65);
+  padding: 10px;
+}
+.details .tabs {
+  display: flex;
+  gap: 16.42px;
+}
+.details .tabs .tab1 {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.details .desc {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.9701px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #9095a6;
+}
+/* details ends */
