@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .header .search-box {
@@ -37,6 +38,7 @@ body {
   line-height: 37px;
   letter-spacing: -0.187119px;
   color: #1b153d;
+  margin-bottom: 20px;
 }
 /* intro-title ends */
 
@@ -44,6 +46,7 @@ body {
 .cats {
   display: flex;
   gap: 19.9px;
+  margin-bottom: 20px;
 }
 .cats .item {
   color: var(--secondary);
@@ -64,8 +67,11 @@ body {
   background-color: white;
   margin: 0.5%;
   padding: 1%;
+  margin-bottom: 10px;
 }
 .products .product img {
+  width: 100%;
+  margin-bottom: 20px;
 }
 .products .product .title {
   font-family: "Raleway";
@@ -75,6 +81,7 @@ body {
   line-height: 15px;
   letter-spacing: -0.187119px;
   color: #1b153d;
+  margin-bottom: 5px;
 }
 .products .product .desc {
   font-family: "Raleway";
@@ -84,6 +91,7 @@ body {
   line-height: 11px;
   letter-spacing: -0.187119px;
   color: #9095a6;
+  margin-bottom: 5px;
 }
 .products .product .price {
   font-family: "Poppins";
@@ -93,5 +101,6 @@ body {
   line-height: 15px;
   letter-spacing: -0.187119px;
   color: #5b41ff;
+  margin-bottom: 10px;
 }
 /* products ends */
