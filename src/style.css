@@ -104,3 +104,59 @@ body {
   margin-bottom: 10px;
 }
 /* products ends */
+
+/* slider-container starts */
+.slider-container {
+  margin: 65px;
+  text-align: center;
+  position: relative;
+}
+.slider-container .top {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-container .img-inner {
+  padding: 10px;
+}
+/* slider-container ends */
+
+/* desc-flex startss */
+.desc-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc-flex .item {
+  padding: 10px;
+}
+.desc-flex .item .title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.6716px;
+  line-height: 19px;
+  letter-spacing: -0.18806px;
+  color: #1b153d;
+  margin-bottom: 10px;
+}
+.desc-flex .item .desc {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.40298px;
+  line-height: 11px;
+  letter-spacing: -0.18806px;
+  color: #9095a6;
+}
+.desc-flex .item .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.806px;
+  line-height: 15px;
+  letter-spacing: -0.18806px;
+  color: #5b41ff;
+}
+/* desc-flex ends */
