@@ -4,9 +4,9 @@ export default function ProductInfo() {
   return (
     <div>
       <ImageSliderWithControls />
-      <h1>itle</h1>
-      <h1>price</h1>
-      <h1>(with silver)</h1>
+      <h1>Mulberry Clutch</h1>
+      <h1>$799</h1>
+      <h1>( With solo loop )</h1>
     </div>
   );
 }
