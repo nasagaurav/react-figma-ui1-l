@@ -1,16 +1,16 @@
 import React from "react";
 
 export default function ChooseColor() {
-  const a = ["Chalk Pink", "Royal Gray", "Eucalyptus"];
+  const a = ["slateblue", "lightgrey", "powderblue"];
   return (
-    <div>
-      <div>Colors</div>
+    <div className="choose-colors">
+      <div className="title">Colors</div>
 
-      <div>
+      <div className="color-flex">
         {a.map((x) => (
-          <div>
-            <div>0</div>
-            <div>{x}</div>
+          <div className="color-item">
+            <div style={{ background: x }} className="color-box-circle"></div>
+            <div className="desc">{x}</div>
           </div>
         ))}
       </div>
