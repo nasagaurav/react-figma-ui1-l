@@ -3,9 +3,9 @@ import React from "react";
 export default function Categories() {
   const a = ["Hand Bags", "Watch", "Books", "Glasses"];
   return (
-    <div className="">
+    <div className="cats">
       {a.map((x) => (
-        <div>{x}</div>
+        <div className="item active">{x}</div>
       ))}
     </div>
   );
