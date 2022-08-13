@@ -1,11 +1,14 @@
 import React from "react";
-import "./style.css";
-
+import { BrowserRouter, Routes,Route } from "react-router-dom";
+import HomePage from "./pages/home-page";
+import ProductsPage from "./pages/products-page";
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<HomePage />} />
+        <Route path="products" element={<ProductsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
